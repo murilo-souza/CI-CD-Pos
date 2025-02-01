@@ -35,4 +35,25 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    public void testAnother()
+    {
+        assertEquals(1, 1);
+    }
+
+    /**
+     * Yet another simple test
+     */
+    public void testYetAnother()
+    {
+        assertNotNull(new Object());
+    }
+
+    /**
+     * Simple string test
+     */
+    public void testString()
+    {
+        assertEquals("Hello", "Hello");
+    }
 }

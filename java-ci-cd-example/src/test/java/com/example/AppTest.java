@@ -54,6 +54,6 @@ public class AppTest
      */
     public void testString()
     {
-        assertEquals("Hello", "Hello");
+        assertEquals("Hello", "Helloeee");
     }
 }
